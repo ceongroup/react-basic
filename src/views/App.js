@@ -1,7 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import MyComponent from './Example/MyComponent';
 
-function App() {
+let App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,14 +12,16 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.dev"
+          href="https://react.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          React Dev
+          React.Dev
         </a>
+        <br />
+        <MyComponent />
       </header>
-    </div>
+    </div >
   );
 }
 

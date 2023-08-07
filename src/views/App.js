@@ -10,16 +10,9 @@ let App = () => {
         <p>
           Hello world from ReactJS
         </p>
-        <a
-          className="App-link"
-          href="https://react.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React.Dev
-        </a>
-        <br />
+
         <MyComponent />
+
       </header>
     </div >
   );
